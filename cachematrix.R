@@ -5,7 +5,7 @@
 #makeCacheMatrix: 
 #This function creates a special "matrix" object that can cache its inverse.
 #
-makeCacheMatrix <- function(x = matrix()) {
+makeCacheMatrix <- function(mtr = matrix()) {
 	invertMtr <- NULL
 	set <- function(mtr1){
 		mtr <<- mtr1
